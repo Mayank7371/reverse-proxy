@@ -63,5 +63,19 @@ ps aux | grep nginx
 - Confirms if Nginx is running in the background.  
 
 ---
+# Nginx Docker Installation Guide
 
-⚡ That’s it! Ab tera Nginx setup ready hai WSL ke andar.
+This file contains all the steps to install and run Nginx inside a Docker container on Ubuntu.
+
+---
+
+## Step 1: Run Docker Ubuntu Image
+```bash
+docker run -it -p 8080:80 ubuntu
+sudo apt-get update
+sudo apt-get install nginx
+sudo nginx -v
+nginx
+```
+
+Now visit http://localhost:8080 and you would be able to see default nginx welcome page.
