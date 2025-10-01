@@ -75,13 +75,13 @@ docker run -it -p 8080:80 ubuntu
 
 ```
 ## Step 2: Update
-sudo apt-get update
+```sudo apt-get update```
 ## Step 3 : install nginx
-sudo apt-get install nginx
+```sudo apt-get install nginx```
 ## step 4 : check nginx version
-sudo nginx -v
+```sudo nginx -v```
 ## Step 5 : Run the nginx server
-nginx
+```nginx```
 
 
 Now visit http://localhost:8080 and you would be able to see default nginx welcome page.
